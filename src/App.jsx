@@ -22,10 +22,10 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className={`app-container  ${selectedGenre ? selectedGenre.toLowerCase() : 'default-bg'}`}>
         <h1>Lista dei film</h1>
         <select onChange={(e) => setSelectedGenre(e.target.value)}>
-          <option value="">tutti i generi</option>
+          <option value="" >tutti i generi</option>
           <option value="Fantascienza">Fantascienza</option>
           <option value="Thriller">Thriller</option>
           <option value="Romantico">Romantico</option>
@@ -36,7 +36,7 @@ function App() {
             <li key={index}>{movie.title}-{movie.genre} </li>
           ))}
         </ul>
-      </div>
+      </div >
     </>
   )
 }

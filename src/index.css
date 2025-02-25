@@ -1,0 +1,34 @@
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fantascienza {
+  background-image: url(../public/c8dfd1_6d08555bf4714ca591cbe5ae11b6af65~mv2.avif);
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+
+.thriller {
+  background-image: url(../public/maxresdefault.jpg);
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+
+.romantico {
+  background-image: url(../public/1000_F_792956084_GzngH2YIDdXU9yve1Cnz6IdJQxz7zMdR.jpg);
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+
+.azione {
+  background-image: url(../public/H9v5o8vP6RKkQtR77LIGrGDE.avif);
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+
+.default-bg {
+  background-image: url(../public/e379295d83f700385c883e38850f512c.jpg);
+}
